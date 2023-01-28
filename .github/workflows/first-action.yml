@@ -3,7 +3,7 @@ on: workflow_run
 jobs:
   first-job:
     runs-on: ubuntu-latest
-    setps:
+    steps:
       - name: print-greetings
         run: echo "Hello World !!"
       - name: print goodbye
